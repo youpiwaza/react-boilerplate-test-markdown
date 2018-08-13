@@ -60,7 +60,9 @@ test double quotes : "hoy"
 
   handleValueChange = (mdeState: ReactMdeTypes.MdeState) => {
     this.setState({ mdeState });
-    console.log(mdeState);
+    console.log('mdeState', mdeState);
+    console.log('mdeState.markdown', mdeState.markdown);
+    console.log('mdeState.html', mdeState.html);
   };
 
   render() {
