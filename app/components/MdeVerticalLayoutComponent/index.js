@@ -25,7 +25,11 @@ _Italique_
 
 ![hey](https://vignette.wikia.nocookie.net/bob-leponge/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20161220183800&path-prefix=fr)
 
-## Test titre
+## Test titre2
+
+test quotes : 'hey'
+
+test double quotes : "hoy"
 
 ~~qsdqsdqdqd~~
 
@@ -56,6 +60,7 @@ _Italique_
 
   handleValueChange = (mdeState: ReactMdeTypes.MdeState) => {
     this.setState({ mdeState });
+    console.log(mdeState);
   };
 
   render() {
