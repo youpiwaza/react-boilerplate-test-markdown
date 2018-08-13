@@ -17,7 +17,33 @@ export default class MdeVerticalLayoutComponent extends React.Component<
     super(props);
     this.state = {
       mdeState: {
-        markdown: '**Hello world!**',
+        markdown: `**Hello world!**
+
+enfing **huehue**
+
+_Italique_
+
+![hey](https://vignette.wikia.nocookie.net/bob-leponge/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20161220183800&path-prefix=fr)
+
+## Test titre
+
+~~qsdqsdqdqd~~
+
+[Click](https://www.google.fr/)
+
+> Dat quote
+
+- lite a puce 1
+- 2
+- 3
+
+1. hey
+2. hoy
+3. wehs
+
+- [ ] Checklist
+- [x] Checked
+- [ ] Unchecked`,
       },
     };
     this.converter = new Showdown.Converter({
