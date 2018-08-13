@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as Showdown from 'showdown';
 import ReactMde, { ReactMdeTypes } from 'react-mde';
+import 'react-mde/lib/styles/css/react-mde-all.css';
 
 interface State {
   mdeState: ReactMdeTypes.MdeState;
